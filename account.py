@@ -44,7 +44,7 @@ def app():
     if not st.session_state['signedout']:
         choice = st.selectbox('Login/Signup', ['Login', "Signup"])
         if choice == 'Login':
-            email = st.text_input('Email')
+            email = st.text_input('Employee ID')
             password = st.text_input('Password', type='password')
             st.button('Login', on_click=failed)
         else:
