@@ -49,7 +49,7 @@ def app():
             st.button('Login', on_click=failed)
         else:
             
-            email = st.text_input('Enter your email')
+            email = st.text_input('Enter your Employee ID')
             password = st.text_input('Password', type='password')
             username = st.text_input('Enter your unique username')
 
